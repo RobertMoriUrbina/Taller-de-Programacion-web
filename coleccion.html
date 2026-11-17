@@ -1,2 +1,81 @@
 <!doctype html>
-<html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="description" content="Campo dei Fiori, atelier floral: ramos de autor, detalles con intención y una experiencia delicada. Proyecto académico de florería."><meta name="theme-color" content="#FBF8F2"><title>Nuestra colección | Campo dei Fiori</title><link rel="icon" href="assets/favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="style.css"><script src="js/model.js" defer></script><script src="js/view.js" defer></script><script src="js/controller.js" defer></script></head><body><a class="skip-link" href="#contenido">Saltar al contenido</a><div id="site-header"></div><main id="contenido"><section class="page-heading wrap"><p class="eyebrow">FLORES ELEGIDAS CON INTENCIÓN</p><h1>La colección <em>botánica.</em></h1><p>Ramos para decir te quiero, gracias, aquí estoy.<br>O simplemente: me lo merezco.</p></section><section class="wrap collection section-bottom"><div class="collection-toolbar"><div class="filter-list" role="group" aria-label="Filtrar por ocasión"><button class="filter active" data-filter="Todos" aria-pressed="true">Todos los ramos</button><button class="filter" data-filter="Romance" aria-pressed="false">Romance</button><button class="filter" data-filter="Gratitud" aria-pressed="false">Gratitud</button><button class="filter" data-filter="Celebración" aria-pressed="false">Celebración</button><button class="filter" data-filter="Para mí" aria-pressed="false">Para mí</button></div><label class="search-label"><span class="sr-only">Buscar flores o ramos</span><input id="search" type="search" placeholder="Busca tu flor favorita…" maxlength="80"><span aria-hidden="true">⌕</span></label></div><div class="results-bar"><span id="result-count" role="status"></span><label>Ordenar <select id="sort"><option value="featured">Destacados</option><option value="low">Menor precio</option><option value="high">Mayor precio</option></select></label></div><div class="product-grid" id="catalog"></div><p class="catalog-note">Cada ramo es único. La composición puede variar según la temporada, conservando su paleta y estilo. Precios de demostración en soles.</p><div class="mini-quiz"><span class="script">¿Una pequeña ayuda?</span><p>Encuentra flores que hablen por ti.</p><button class="under-link" data-open="quiz">Hacer el test floral →</button></div></section></main><div id="site-footer"></div><div id="dialogs"></div><div class="toast" id="toast" role="status"></div><noscript><p class="notice">Activa JavaScript para usar el catálogo, el carrito y los formularios. Puedes navegar por el resto del contenido.</p></noscript></body></html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Campo dei Fiori, atelier floral: ramos de autor, detalles con intención y una experiencia delicada. Proyecto académico de florería."
+    />
+    <meta name="theme-color" content="#FBF8F2" />
+    <title>Nuestra colección | Campo dei Fiori</title>
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="js/model.js" defer></script>
+    <script src="js/view.js" defer></script>
+    <script src="js/controller.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#contenido">Saltar al contenido</a>
+    <div id="site-header"></div>
+    <main id="contenido">
+      <section class="page-heading wrap">
+        <p class="eyebrow">FLORES ELEGIDAS CON INTENCIÓN</p>
+        <h1>La colección <em>botánica.</em></h1>
+        <p>Ramos para decir te quiero, gracias, aquí estoy.<br />O simplemente: me lo merezco.</p>
+      </section>
+      <section class="wrap collection section-bottom">
+        <div class="collection-toolbar">
+          <div class="filter-list" role="group" aria-label="Filtrar por ocasión">
+            <button class="filter active" data-filter="Todos" aria-pressed="true">
+              Todos los ramos</button
+            ><button class="filter" data-filter="Romance" aria-pressed="false">Romance</button
+            ><button class="filter" data-filter="Gratitud" aria-pressed="false">Gratitud</button
+            ><button class="filter" data-filter="Celebración" aria-pressed="false">
+              Celebración</button
+            ><button class="filter" data-filter="Para mí" aria-pressed="false">Para mí</button>
+          </div>
+          <label class="search-label"
+            ><span class="sr-only">Buscar flores o ramos</span
+            ><input
+              id="search"
+              type="search"
+              placeholder="Busca tu flor favorita…"
+              maxlength="80"
+            /><span aria-hidden="true">⌕</span></label
+          >
+        </div>
+        <div class="results-bar">
+          <span id="result-count" role="status"></span
+          ><label
+            >Ordenar
+            <select id="sort">
+              <option value="featured">Destacados</option>
+              <option value="low">Menor precio</option>
+              <option value="high">Mayor precio</option>
+            </select></label
+          >
+        </div>
+        <div class="product-grid" id="catalog"></div>
+        <p class="catalog-note">
+          Cada ramo es único. La composición puede variar según la temporada, conservando su paleta
+          y estilo. Precios de demostración en soles.
+        </p>
+        <div class="mini-quiz">
+          <span class="script">¿Una pequeña ayuda?</span>
+          <p>Encuentra flores que hablen por ti.</p>
+          <button class="under-link" data-open="quiz">Hacer el test floral →</button>
+        </div>
+      </section>
+    </main>
+    <div id="site-footer"></div>
+    <div id="dialogs"></div>
+    <div class="toast" id="toast" role="status"></div>
+    <noscript
+      ><p class="notice">
+        Activa JavaScript para usar el catálogo, el carrito y los formularios. Puedes navegar por el
+        resto del contenido.
+      </p></noscript
+    >
+  </body>
+</html>

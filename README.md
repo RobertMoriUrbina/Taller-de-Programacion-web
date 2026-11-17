@@ -4,6 +4,10 @@ Proyecto académico de **Taller de programación web**. Una florería de autor c
 
 **Integrantes:** Muña Huaynates Ruth Mirtha y Mori Urbina Robert Augusto.
 
+**[Descargar todo en una sola carpeta Campo_dei_Fiori (.zip)](https://github.com/RobertMoriUrbina/Taller-de-Programacion-web/raw/refs/heads/main/descargas/Campo_dei_Fiori_Completo.zip)**
+
+Extrae el ZIP completo y abre la carpeta `Campo_dei_Fiori` en VS Code. Contiene el código legible, todos los recursos de la web y los documentos del proyecto. Empieza por `LEEME_PRIMERO.txt`.
+
 ![Vista de inicio de Campo dei Fiori](docs/evidencias/inicio-viewport.png)
 
 ## Documentos de la entrega
@@ -28,7 +32,7 @@ No requiere instalar paquetes, crear cuentas ni configurar contraseñas.
 python3 -m http.server 8000 --bind 0.0.0.0
 ```
 
-En Windows también puedes usar `py -m http.server 8000`. Abre el puerto 8000 con tu navegador. Otra opción es Live Server de VS Code. Para detener Python, pulsa Ctrl+C en su terminal. No es necesario ejecutar npm ni compilar.
+En Windows también puedes usar `py -m http.server 8000`. Después visita `http://localhost:8000` en tu navegador. Otra opción es Live Server de VS Code. Para detener Python, pulsa Ctrl+C en su terminal. No es necesario ejecutar npm ni compilar.
 
 ## Páginas y funciones
 
@@ -86,3 +90,7 @@ El nombre comercial, la historia y los precios forman parte de un caso ficticio.
 8. Mostrar las tres capas JS y su relación con las vistas HTML.
 
 Las pruebas y capturas de la entrega documentan resultados concretos; la compatibilidad con otros navegadores requiere una comprobación independiente.
+
+## Formato del código
+
+Los HTML, CSS y JavaScript están expandidos, con sangría de dos espacios y comentarios por secciones. Las plantillas HTML de JavaScript también se presentan en varias líneas. La configuración de Prettier se conserva en `.prettierrc.json`; es una herramienta opcional para editar, no un requisito para ejecutar la web. Las licencias originales de terceros se conservan tal como se descargaron.

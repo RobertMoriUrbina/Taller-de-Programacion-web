@@ -1,0 +1,33 @@
+CAMPO DEI FIORI — TODO EL PROYECTO EN UNA CARPETA
+
+1. Extrae el ZIP completo. Obtendrás una carpeta llamada Campo_dei_Fiori.
+2. Abre esa carpeta en Visual Studio Code para revisar el código.
+3. Para ver la página, abre index.html en un navegador o usa Live Server.
+
+Si prefieres un servidor local con Python:
+  - Abre una terminal dentro de esta carpeta.
+  - Ejecuta: python3 -m http.server 8000
+  - En Windows también puedes usar: py -m http.server 8000
+  - Visita http://localhost:8000 en tu navegador.
+  - Para detenerlo, pulsa Ctrl+C en la terminal.
+
+QUÉ HAY DENTRO
+
+index.html          Página de inicio.
+coleccion.html      Catálogo de flores y filtros.
+nosotros.html       Historia del atelier.
+experiencia.html    Video floral, cuidados y preguntas frecuentes.
+contacto.html       Contacto, mapa referencial y sugerencias.
+reclamaciones.html  Formulario de reclamaciones de demostración.
+style.css           Diseño, colores, tipografías y adaptación a celulares.
+js/                 Modelo, vista y controlador de JavaScript.
+assets/             Imágenes, video, tipografías y sus créditos.
+docs/               Informe Word/PDF, presentación PowerPoint/PDF y evidencias.
+README.md           Guía detallada del proyecto.
+
+El código está ordenado con sangría de dos espacios y comentarios en español.
+Conserva todas las carpetas dentro de Campo_dei_Fiori para que las rutas funcionen.
+No necesitas instalar paquetes de Node ni compilar para utilizar la página.
+
+Integrantes: Muña Huaynates Ruth Mirtha y Mori Urbina Robert Augusto.
+Los pedidos, pagos y reclamaciones son una demostración académica.

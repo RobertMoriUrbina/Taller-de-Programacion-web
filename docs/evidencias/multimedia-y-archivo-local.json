@@ -1,0 +1,32 @@
+{
+  "video_metadata": {
+    "duration": 15,
+    "width": 1280,
+    "height": 720,
+    "tracks": 1
+  },
+  "video_reproduccion": {
+    "currentTime": 1.0131,
+    "paused": false,
+    "error": null
+  },
+  "tipografias_locales": [
+    {
+      "family": "Cormorant",
+      "loaded": true
+    },
+    {
+      "family": "DM Sans",
+      "loaded": true
+    },
+    {
+      "family": "Allura",
+      "loaded": true
+    },
+    {
+      "family": "DM Mono",
+      "loaded": true
+    }
+  ],
+  "archivo_local": "No ejecutado: navegador administrado bloquea file:// con ERR_BLOCKED_BY_ADMINISTRATOR. Flujo validado por HTTP local."
+}

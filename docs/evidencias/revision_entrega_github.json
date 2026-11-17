@@ -1,0 +1,71 @@
+{
+  "alcance": "Revisión independiente de archivos finales para entrega en GitHub; no incluye push ni publicación web.",
+  "presentacion": {
+    "diapositivas": 18,
+    "paginas_pdf": 18,
+    "formato": "16:9",
+    "diapositivas_con_notas": 18,
+    "duracion_guion": "15:00",
+    "autores_correctos": true,
+    "otros_integrantes_ausentes": true,
+    "zip_integro": true,
+    "imagenes_validas": 12,
+    "relaciones_faltantes": [],
+    "paginas_no_vacias": true,
+    "revision_visual": "18 diapositivas revisadas en mosaicos; correcciones finales3,10,14 verificadas a resolución completa. Tarjetas3 sin desborde, dedicatoria10 ampliada legible, código14 legible; sin superposición observada.",
+    "procedencia": "Una mención a pastelería solo en notas explica Prueba2; el negocio presentado es floral."
+  },
+  "informe": {
+    "paginas_pdf": 25,
+    "autores_correctos": true,
+    "otros_integrantes_ausentes": true,
+    "docx_zip_integro": true,
+    "tablas": 6,
+    "figuras": 5,
+    "margenes_cm": [
+      [
+        2.54,
+        2.54,
+        2.54,
+        2.54
+      ]
+    ],
+    "paginas_no_vacias": true,
+    "procedencia": "Dos menciones a pastelería (p6 y20) describen referencia Prueba2, no historia actual."
+  },
+  "rutas": {
+    "referencias_locales_comprobadas": 54,
+    "rutas_aplicacion_faltantes": [],
+    "vinculos_markdown_pendientes": []
+  },
+  "copias_repositorio": [
+    {
+      "archivo": "Campo_dei_Fiori_Avance_3.docx",
+      "copiado": true,
+      "coincide_sha256": true
+    },
+    {
+      "archivo": "Campo_dei_Fiori_Avance_3.pdf",
+      "copiado": true,
+      "coincide_sha256": true
+    },
+    {
+      "archivo": "Campo_dei_Fiori_Presentacion.pptx",
+      "copiado": true,
+      "coincide_sha256": true
+    },
+    {
+      "archivo": "Campo_dei_Fiori_Presentacion.pdf",
+      "copiado": true,
+      "coincide_sha256": true
+    }
+  ],
+  "validacion_funcional_previa": {
+    "archivo": "resultados_independientes.json",
+    "grupos_aprobados": 13,
+    "grupos_fallidos": 0,
+    "nota": "No se repitió suite web: los cambios de esta etapa son documentos, README y .gitignore."
+  },
+  "publicacion_github": "No ejecutada por este agente; la realiza el agente principal.",
+  "estado_revision": "aprobada: archivos finales íntegros, vínculos locales resueltos y copias del repositorio idénticas a entregables"
+}

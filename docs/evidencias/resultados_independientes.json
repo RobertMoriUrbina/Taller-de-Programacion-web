@@ -1,0 +1,75 @@
+{
+  "origen": "http://127.0.0.1:8000/",
+  "navegador": "Chromium /usr/bin/chromium (headless, Playwright Python)",
+  "resultados": [
+    {
+      "prueba": "Navegación y recursos locales",
+      "resultado": "aprobada",
+      "detalle": "Seis páginas, encabezados e imágenes locales cargan."
+    },
+    {
+      "prueba": "Catálogo: filtros, búsqueda y orden",
+      "resultado": "aprobada",
+      "detalle": "6 ramos; categoría, búsqueda sin tildes, estado vacío, limpieza y orden ascendente/descendente."
+    },
+    {
+      "prueba": "Recomendador floral",
+      "resultado": "aprobada",
+      "detalle": "3 preguntas, Brisa por calma/blanco/S120, Amore por romance/rojo/S160; añade al carrito; reinicio y Escape."
+    },
+    {
+      "prueba": "Carrito, totales y persistencia",
+      "resultado": "aprobada",
+      "detalle": "Cantidades suman/restan; borrar; S257 y S267 verificados; persiste recarga y elimina con cantidad cero."
+    },
+    {
+      "prueba": "Checkout y datos personales",
+      "resultado": "aprobada",
+      "detalle": "Recojo S89; delivery S104; validación de requeridos; fecha desde mañana; tarjeta escapa HTML; pedido e historial sin PII."
+    },
+    {
+      "prueba": "Formulario sugerencias",
+      "resultado": "aprobada",
+      "detalle": "Campos requeridos y constancia SG persistida; datos personales/mensaje no se guardan, formulario se limpia."
+    },
+    {
+      "prueba": "Libro de reclamaciones",
+      "resultado": "aprobada",
+      "detalle": "Validación DNI8 y CE9–12, formulario completo RC; restablece DNI y no guarda datos del reclamante."
+    },
+    {
+      "prueba": "Borrado de datos locales",
+      "resultado": "aprobada",
+      "detalle": "Borrado con doble confirmación limpia únicamente claves cf- de carrito/pedidos/constancias."
+    },
+    {
+      "prueba": "Almacenamiento corrupto",
+      "resultado": "aprobada",
+      "detalle": "Filtra IDs desconocidos, negativos, fraccionarios, duplicados; limita20; JSON inválido no rompe la página."
+    },
+    {
+      "prueba": "Teclado y foco modal",
+      "resultado": "aprobada",
+      "detalle": "Enter abre modal nativo; foco inicial dentro, 9 tabs no enfocan controles de fondo (Chromium incluye BODY al ciclar); Escape cierra y devuelve foco al carrito."
+    },
+    {
+      "prueba": "Diseño adaptable y menú móvil",
+      "resultado": "aprobada",
+      "detalle": "6 páginas sin desborde horizontal en360,390,768px; menú abre/cierra y navega a Colección."
+    },
+    {
+      "prueba": "Consola JavaScript",
+      "resultado": "aprobada",
+      "detalle": "Sin errores de ejecución en los recorridos realizados"
+    },
+    {
+      "prueba": "Recursos HTTP locales",
+      "resultado": "aprobada",
+      "detalle": "Sin respuestas HTTP locales >=400"
+    }
+  ],
+  "resumen": {
+    "aprobadas": 13,
+    "fallidas": 0
+  }
+}
